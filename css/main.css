@@ -74,6 +74,9 @@ a:hover {
 header {
   padding: 0px 150px;
   height: 70px;
+  position: fixed;
+  background-color: white;
+  width: 100%;
 }
 
 header div {
@@ -94,6 +97,8 @@ header div a {
   font-size: 12px;
   padding-right: 30px;
 }
+
+
 
 #home {
   background-image: url("../assets/images/bg-home.jpg");
@@ -160,7 +165,23 @@ footer {
   color: white;
 }
 
+.work {
+  text-align: center;
+  width: 100%;
+}
 
+.work  div img {
+  width: 70%;
+}
 
+#projects div img {
+  width: 350px;
+}
+
+#projects div {
+  margin-left: 30px;
+  display: inline-block;
+  text-align: center;
+}
 
 
